@@ -1,0 +1,41 @@
+8
+
+dir
+41
+https://192.168.1.4/svn/repository_svn/CERT/SCEA/trunk/diagrams/state
+https://192.168.1.4/svn/repository_svn
+
+
+
+2011-08-11T13:38:11.609375Z
+31
+nacho
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a0f01fc-f292-6546-a759-495065446b9d
+
+req_st.html
+file
+44
+
+
+
+2011-08-16T01:37:57.890000Z
+c2070ad0fcae67ad80816f9c1d33afa5
+2011-08-16T02:30:36.921875Z
+44
+nacho
+has-props
+

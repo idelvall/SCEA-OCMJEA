@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="Description" content="Sun Certified Enterprise Architect EE5 Assignment (Part II)"/>
+<meta name="Author" content="Ignacio del Valle Alles, Oracle Testing ID: SR1825921"/>
+<title>Component diagram</title>
+</head>
+<body>
+<div>
+	<img src="../../images/com_dgm.gif" usemap="#refs" style="border: none;" alt="Component diagram"/> 
+	<map name="refs" id="refs">
+		<area shape="rect" coords="1180,11,396,282" href="../class/cls_pl.html" alt="Presentation Layer class diagram"/>
+		<area shape="rect" coords="1180,326,396,651" href="../class/cls_bll.html" alt="Business Logic Layer class diagram"/>
+		<area shape="rect" coords="1180,675,396,771" href="../class/cls_dal.html"  alt="Data Access Layer class diagram"/>
+		<area shape="rect" coords="312,181,156,570" href="../class/cls_sl.html"  alt="Service Layer class diagram"/>
+	</map>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+8
+
+dir
+41
+https://192.168.1.4/svn/repository_svn/CERT/SCEA/trunk/css
+https://192.168.1.4/svn/repository_svn
+
+
+
+2011-08-15T18:45:44.312500Z
+34
+nacho
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a0f01fc-f292-6546-a759-495065446b9d
+
+stylesheet.css
+file
+44
+
+
+
+2011-08-16T02:28:05.328000Z
+267e59cd00795339c746cd14373ccb35
+2011-08-16T02:30:36.921875Z
+44
+nacho
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="Description" content="Sun Certified Enterprise Architect EE5 Assignment (Part II)"/>
+<meta name="Author" content="Ignacio del Valle Alles, Oracle Testing ID: SR1825921"/>
+<title>"Data Access Layer" class diagram</title>
+</head>
+<body>
+<div>
+	<img src="../../images/cls_dal.gif" usemap="#refs" style="border: none;" alt="Data Access Layer class diagram"/> 
+	<map name="refs" id="refs">
+		<area shape="rect" coords="705,688,600,769" href="../state/req_st.html" alt="Request state diagrams" />
+	</map>
+</div>
+</body>
+</html>

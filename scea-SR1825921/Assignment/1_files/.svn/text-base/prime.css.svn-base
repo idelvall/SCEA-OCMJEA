@@ -1,0 +1,284 @@
+BODY
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #f0f0f0
+}
+TD
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.SmallerRed
+{
+    FONT-SIZE: 8pt;
+    COLOR: red
+}
+.SmallerGreen
+{
+    FONT-SIZE: 8pt;
+    COLOR: green
+}
+.SmallerBlue
+{
+    FONT-SIZE: 8pt;
+    COLOR: #00008b
+}
+.SmallerBlack
+{
+    FONT-SIZE: 8pt;
+    COLOR: black
+}
+.IFix
+{
+    FONT-SIZE: 13px
+}
+.LilBigger
+{
+    FONT-SIZE: 11pt
+}
+.SmallerGray
+{
+    FONT-SIZE: 8pt;
+    COLOR: #a9a9a9
+}
+.GrayText
+{
+    COLOR: #a9a9a9
+}
+.TextBlue
+{
+    COLOR: blue
+}
+.TextGray
+{
+    COLOR: #a9a9a9
+}
+.TextAlert
+{
+    COLOR: maroon
+}
+.TextNotice
+{
+    COLOR: #003399
+}
+.LotsBigger
+{
+    FONT-SIZE: 13pt
+}
+.BGOffWhite
+{
+    BACKGROUND-COLOR: #ffffcc
+}
+.BGGrey
+{
+    BACKGROUND-COLOR: #f0f0f0
+}
+.BGGray
+{
+    BACKGROUND-COLOR: #f0f0f0
+}
+.TextGold
+{
+    COLOR: #cc9933
+}
+.TextYellow
+{
+    COLOR: yellow
+}
+.SmallerMaroon
+{
+    FONT-SIZE: 8pt;
+    COLOR: maroon
+}
+.SmallerGold
+{
+    FONT-SIZE: 8pt;
+    COLOR: #cc9933
+}
+.BGGold
+{
+    BACKGROUND-COLOR: #afb087
+}
+.BGWhite
+{
+    BACKGROUND-COLOR: #ffffff
+}
+A
+{
+    COLOR: #990000
+}
+A:visited
+{
+    COLOR: #990000
+}
+A:active
+{
+    COLOR: #003399
+}
+.BGLightGold
+{
+    BACKGROUND-COLOR: #dcdccc
+}
+.TextNormal
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.TextMaroon
+{
+    COLOR: maroon
+}
+.TextRedAlert
+{
+    COLOR: red
+}
+.BGBlue
+{
+    COLOR: white;
+    BACKGROUND-COLOR: #002166
+}
+.TextGreen
+{
+    COLOR: green
+}
+.IFix2
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: 'Courier New', Verdana
+}
+.IFix3
+{
+    FONT-SIZE: 8pt
+}
+.MegaBig
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 20pt
+}
+.TextWhite
+{
+    COLOR: white
+}
+.TextBlack
+{
+    COLOR: black
+}
+.MegaBigWhite
+{
+    FONT-SIZE: 14pt;
+    COLOR: white
+}
+.MegaBigBlack
+{
+    FONT-SIZE: 14pt;
+    COLOR: black
+}
+.SmallerWhite
+{
+    FONT-SIZE: 8pt;
+    COLOR: white
+}
+.TextLightGold
+{
+    COLOR: #dcdccc
+}
+.mBody
+{
+}
+.cAlert
+{
+}
+.cNotice
+{
+}
+.cRedAlert
+{
+}
+.cGood
+{
+}
+.cTitleMinor
+{
+}
+.cTitleMajor
+{
+}
+.cDisabled
+{
+}
+.cCritical
+{
+}
+.tMinorSub
+{
+}
+.tMinor
+{
+}
+.tMajor
+{
+}
+.tBody
+{
+}
+.goSmall
+{
+}
+.goLarge
+{
+}
+.goNormal
+{
+}
+.CamelCase
+{
+    TEXT-TRANSFORM: capitalize
+}
+.BGMaroon
+{
+    BACKGROUND-COLOR: maroon
+}
+.WaySmall
+{
+    FONT-SIZE: 10px
+}
+.megabigyellow
+{
+    FONT-SIZE: 14pt;
+    COLOR: yellow
+}
+.megabigblue
+{
+    FONT-SIZE: 14pt;
+    COLOR: midnightblue
+}
+.IFixF
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: 'Courier New'
+}
+.TextStem
+{
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Verdana
+}
+.bgNoticeBox
+{
+    BACKGROUND-COLOR: khaki
+}
+.bgYellow
+{
+    BACKGROUND-COLOR: yellow
+}
+.bgOrange
+{
+    BACKGROUND-COLOR: orange
+}
+.TopBarBGColor
+{
+    BACKGROUND-COLOR: #f0f0f0
+}

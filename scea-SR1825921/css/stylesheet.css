@@ -1,0 +1,79 @@
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: Arial, Sans-serif;
+}
+
+div.center {
+	text-align: center;
+}
+
+div.right {
+	text-align: right;
+}
+
+div.candidate {
+	font-style:italic;
+}
+
+div.padded {
+	padding-left: 16px;
+}
+
+
+div.header{
+	padding-bottom: 6px;
+	padding-top: 6px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-width: 5px;
+	border-color: DarkSlateGray;;
+	color: DarkSlateGray;
+}
+
+div.footer{
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-top: 40px;
+	border-top-style: solid;
+	border-width: 5px;
+	border-color: DarkSlateGray;;
+	color: DarkSlateGray;
+}
+
+ul.plainList{
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	margin-top: 0px;  
+	margin-bottom: 0px;
+}
+
+h1 {
+	color: DarkSlateGray;
+}
+
+h2 {
+	padding-top: 6px;
+	margin-top: 60px;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: DarkSlateGray;;
+	color: DarkSlateGray;
+}
+
+h3 {
+	padding-top: 6px;
+	margin-top: 20px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: DarkSlateBlue;
+	color: DarkSlateBlue;
+}
+
+h4 {
+	padding-top: 4px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: lightgray;
+	color: #444444;
+}

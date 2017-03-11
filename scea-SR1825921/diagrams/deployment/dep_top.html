@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="Description" content="Sun Certified Enterprise Architect EE5 Assignment (Part II)"/>
+<meta name="Author" content="Ignacio del Valle Alles, Oracle Testing ID: SR1825921"/>
+<title>Production topology diagram</title>
+</head>
+<body>
+<div>
+	<img src="../../images/dep_top.gif" usemap="#refs" style="border: none;" alt="Production topology diagram"/> 
+</div>
+<div>
+	<b>Notes:</b>
+	<ul>
+	<li>Values for p,w,h must be adjusted based on pre-production QoS test results and production monitoring. Relevant factors are: 
+		<ul>
+			<li>Maximum number of concurrent users</li>
+			<li>Average think time</li>
+			<li>Requests per minute</li>
+		</ul>
+		Tests must emulate production workloads. Overloaded devices must be identified and freed from load by adding new nodes.<br/>
+		Initially p=w=h=2. (Minimum scheme with no single points of failure)	
+	</li>
+	<li>Vertical scaling: v can be as much higher as possible, given the current node hardware specifications, and application servers JVM requirements 
+	</li>
+	</ul>
+</div>
+</body>
+</html>

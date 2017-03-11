@@ -1,0 +1,54 @@
+8
+
+dir
+41
+https://192.168.1.4/svn/repository_svn/CERT/SCEA/trunk/diagrams/deployment
+https://192.168.1.4/svn/repository_svn
+
+
+
+2011-08-15T18:45:55.906250Z
+35
+nacho
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a0f01fc-f292-6546-a759-495065446b9d
+
+dep_art.html
+file
+
+
+
+
+2011-08-15T19:24:11.703000Z
+0623e724d96453fe274888abfa38d6e8
+2011-08-15T18:45:55.906250Z
+35
+nacho
+has-props
+
+dep_top.html
+file
+47
+
+
+
+2011-08-16T11:37:25.687000Z
+e1555ad82e554abb1ddce02fdd49a194
+2011-08-16T11:39:07.046875Z
+47
+nacho
+has-props
+

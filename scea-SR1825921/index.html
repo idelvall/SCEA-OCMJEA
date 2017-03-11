@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="Description" content="Sun Certified Enterprise Architect EE5 Assignment (Part II)"/>
+<meta name="Author" content="Ignacio del Valle Alles, Oracle Testing ID: SR1825921"/>
+<title>Sun Certified Enterprise Architect EE5 Assignment (Part II)</title>
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
+</head>
+<body>
+<div class="header">
+	<div class="center"><h1>Sun Certified Enterprise Architect EE5 Assignment (Part II)</h1>
+		<div class="candidate">Candidate: Ignacio del Valle Alles, Oracle Testing ID: SR1825921</div>
+	</div>
+	<div class="right">
+	   <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+	</div>
+</div>
+<ul>
+	<li><a href="#intro">1. Introduction</a></li>
+	<li><a href="#uml_diagrams">2. UML Diagrams</a>
+	<ul>
+		<li><a href="#uml_not">2.1 Notations</a>
+			<ul>
+				<li><a href="#uml_not_str">2.1.1. Stereotypes</a></li>
+				<li><a href="#uml_not_col">2.1.2. Colors</a></li>
+			</ul>
+		</li>
+		<li><a href="#com_diagram">2.2 Component diagram</a></li>
+		<li><a href="#cls_diagram">2.3 Class diagrams</a></li>
+		<li><a href="#seq_diagram">2.4 Sequence diagrams</a>
+			<ul>
+				<li><a href="#seq_diagram_uc">2.4.1. Use Case diagrams</a></li>
+				<li><a href="#seq_diagram_oth">2.4.2. Other main sequence diagrams</a></li>
+				<li><a href="#seq_diagram_cd">2.4.3. Common diagrams</a></li>
+				
+			</ul>
+		</li>
+		<li><a href="#dep_diagram">2.5 Deployment diagrams</a></li>
+		<li><a href="#oth_diagram">2.6 Other diagram</a></li>
+	</ul>
+	</li>
+	
+	<li><a href="#risks">3. Risk and mitigation list</a>
+	<ul>
+		<li><a href="#risks_sec">3.1. Security issues</a></li>
+		<li><a href="#risks_rel">3.2. Reliability issues</a></li>
+		<li><a href="#risks_scl">3.3. Scalability issues</a></li>
+	</ul>
+	
+	</li>
+	<li><a href="#assumptions">4. Assumptions</a>
+	<ul>
+		<li><a href="#as_is">4.1. Inventory System</a></li>
+		<li><a href="#as_mult">4.2. Relationship multiplicities</a></li>
+		<li><a href="#as_open">4.3. Review Open Bids</a></li>
+		<li><a href="#as_winn">4.4. Winning bidder</a></li>
+	</ul>
+	</li>
+	<li><a href="#notes">5. Design complementary notes</a>
+	<ul>
+		<li><a href="#notes_aa">5.1. Application security architecture</a></li>
+		<li><a href="#notes_err">5.2. Error handling and logging</a></li>
+		<li><a href="#notes_prop">5.3. Environment dependent properties</a></li>
+		<li><a href="#notes_i18n">5.4. Internationalization</a></li>
+		<li><a href="#notes_lf">5.5. Application lifecycle</a></li>
+		<li><a href="#notes_sup">5.6. Enrolling a new supplier</a></li>
+		
+	</ul>
+	</li>
+</ul>
+
+<h2><a name="intro">1. Introduction</a></h2>
+<div class="padded">
+The following document is complete Sun Certified Enterprise Architect EE5 Assignment (Part II) solution for the following requirements:
+<a href="./Assignment/1.htm">unchanged downloaded instructions</a>.
+</div>
+<h2><a name="uml_diagrams">2. UML Diagrams</a></h2>
+<div class="padded">
+	<h3><a name="uml_not">2.1. Notations</a></h3>
+	<div class="padded">
+		<h4><a name="uml_not_str">2.1.1. Stereotypes</a></h4>
+		<div class="padded">
+			The following stereotypes are used overall the documentation:
+			<ul>
+				<li><b><i>&lt;&lt;external&gt;&gt;</i></b>:<br/>Abstractions external to the SuD.</li>
+				<li><b><i>&lt;&lt;framework&gt;&gt;</i></b>:<br/>All general purpose
+				funtionality not exclusive to the SuD is estereotyped as "framework".
+				This funtionality can be implemented by third party libraries or need
+				to be implemented from scratch. Framework resources are deployed as shared libraries, in order to be reusable among (future) applications.</li>
+				<li><b><i>&lt;&lt;dreamcar&gt;&gt;</i></b> Security role:<br/>Artifacts stereotyped can be executed only by "dreamcar" users.</li>
+				<li><b><i>&lt;&lt;supplier&gt;&gt;</i></b> Security role:<br/>Artifacts stereotyped can be executed only by "supplier" users.</li>
+				<li><b>JEE annotations:</b><br/>Stereotype names stating with '@' represent a JEE annotation. </li>
+			</ul>
+		</div>
+		<h4><a name="uml_not_col">2.1.2. Colors</a></h4>
+		<div class="padded">
+			The following colors are used in component, class and deployment diagrams to favor readability:
+			<ul>
+			<li><img alt="" src="images/legend_framework.gif" style="border:none" /> "framework" stereotyped abstractions</li>
+			<li><img alt="" src="images/legend_sud.gif" style="border:none" />SuD abstractions</li>
+			<li><img alt="" src="images/legend_external.gif" style="border:none" />Abstractions external to the SuD. </li>
+			</ul>
+		</div>
+	</div>
+	<h3><a name="com_diagram">2.2. Component diagram</a></h3>
+	<div class="padded">
+		The	following diagram shows the main components in the SuD, and their interactions.
+		<ul>
+			<li><a href="diagrams/component/com_dgm.html">Component diagram</a></li>
+		</ul>
+	</div>
+	<h3><a name="cls_diagram">2.3. Class diagrams</a></h3>
+	<div class="padded">
+		<ul>
+			<li><a href="diagrams/class/cls_pl.html">Presentation Layer class diagram</a></li>
+			<li><a href="diagrams/class/cls_bll.html">Business Logic Layer class diagram</a></li>
+			<li><a href="diagrams/class/cls_dal.html">Data Access Layer class diagram</a></li>
+			<li><a href="diagrams/class/cls_sl.html">Services Layer class diagram</a></li>
+		</ul>
+	</div>
+	<h3><a name="seq_diagram">2.4. Sequence diagrams</a></h3>
+	<div class="padded">
+		<h4><a name="seq_diagram_uc">2.4.1. Use case diagrams</a></h4>
+		<ul>
+			<li><a href="diagrams/sequence/uc1.html">Post Request for
+			Parts</a>. The Post Request use case allows an authorized Dreamcar
+			representative to place a request for a required quantity of parts.</li>
+			<li><a href="diagrams/sequence/uc2.html">Review Open Bids</a>.
+			The Review Open Bids use case allows an authorized Dreamcar
+			representative to review open bids placed in response to an open bid
+			request.</li>
+			<li><a href="diagrams/sequence/uc3.html">Submit Bid for Open
+			Parts Requests</a>. The Submit Bid for Open Parts Request use case allows
+			an authorized supplier to bid on open bid requests of interest that
+			exist in the system.</li>
+			<li><a href="diagrams/sequence/uc4.html">Issue PO to Winning
+			Bidder</a>. The Issue PO to Winning Bidder use case allows a Dreamcar
+			representative to select a winning bid for a specific bid request and
+			issue a PO to the supplier associated with that bid.</li>
+			<li><a href="diagrams/sequence/uc5.html">Schedule Work in
+			Factory</a>. The Schedule Work in Factory use case allows an authorized
+			Dreamcar representative to schedule work in the car assembly plant,
+			which relies on the successful bid requests placed with suppliers in
+			the auction system.</li>
+		</ul>
+		<div class="center"><img src="images/UCs.jpg" usemap="#UCrefs" style="border:none" alt="Use cases" /></div>
+		<map name="UCrefs" id="UCrefs">
+			<area shape="rect" coords="403,75,272,112" href="diagrams/sequence/uc1.html" alt="Post Request for Parts sequence diagram"/>
+			<area shape="rect" coords="392,139,283,175"	href="diagrams/sequence/uc2.html" alt="Review Open Bids"/>
+			<area shape="rect" coords="444,205,249,234"	href="diagrams/sequence/uc3.html" alt="Submit Bid for Open Parts Request"/>
+			<area shape="rect" coords="393,292,267,318"	href="diagrams/sequence/uc4.html" alt="Issue PO to Winning Bidder"/>
+			<area shape="rect" coords="374,395,282,425"	href="diagrams/sequence/uc5.html" alt="Schedule Work in	Factory"/>
+		</map>
+		
+		<h4><a name="seq_diagram_oth">2.4.2. Other main sequence diagrams</a></h4>
+		<div class="padded">
+			Main sequence diagrams not covered by use cases.
+			<ul>
+				<li><a href="diagrams/sequence/cd5.html">Request expiration</a>.
+				Actions performed by the EJB container on request expiration.</li>
+			</ul>
+		</div>
+		<h4><a name="seq_diagram_cd">2.4.3. Common diagrams</a></h4>
+		<div class="padded">
+			Helper diagrams used by other diagrams.
+			<ul>
+				<li><a href="diagrams/sequence/cd1.html">View requests</a>.
+				Paginated search of requests.</li>
+				<li><a href="diagrams/sequence/cd2.html">View request bids</a>.
+				Paginated search of bids for a selected request.</li>
+				<li><a href="diagrams/sequence/cd3.html">Close request</a>.
+				<code>RequestManager.closeRequest()</code> sequence diagram.</li>
+				<li><a href="diagrams/sequence/cd4.html">Change request status</a>.
+				Changes the request status.</li>
+			</ul>
+		</div>
+	</div>
+	<h3><a name="dep_diagram">2.5. Deployment diagrams</a></h3>
+	<ul>
+		<li><a href="diagrams/deployment/dep_top.html">Production topology diagram</a></li>
+		<li><a href="diagrams/deployment/dep_art.html">Deployment artifacts diagram</a></li>
+	</ul>
+	<h3><a name="oth_diagram">2.6. Other diagrams</a></h3>
+	<ul>
+		<li><a href="diagrams/state/req_st.html">Request states diagram</a></li>
+	</ul>
+</div>
+<h2><a name="risks">3. Risk and mitigation list</a></h2>
+<div class="padded">
+	Despite of not being explicit mentioned in the requirements the following are the top three technical risks identified in the project and a mitigation strategies:
+	<h3><a name="risks_sec">3.1. Security issues</a></h3>
+	<div class="padded">
+		The major risk identified for this application is security vulnerabilities. If the system is compromised, several companies can be affected (dreamcar and suppliers). These are some security related risks:
+		<ol>
+			<li>Man in the middle attacks</li>
+			<li>Modification of the PO by a third party</li>
+			<li>Compromised node</li>
+			<li>Phising</li>
+			<li>DNS spoofing</li>
+			<li>Brute force attacks</li>
+		</ol>
+		<b>Mitigation strategies:</b>
+		<ul>
+			<li>Using mutual SSL for external communication. Encrypts and authenticates both parties. Dreamcar certificate must be granted by a certification authority but for suppliers is no needed: supplier certificates can be created by dreamcar in case of not having one and can be obtained remotely on a simple SSL connection (only dreamcar uses a certificate). That avoids 1,4, and 5</li>
+			<li>PO is digitally signed by dreamcar once it is created, before it is stored and sent</li>
+			<li>Physical security: Production servers must be located in a restricted access area. This way physical access is limited. Avoids threat number 3</li>
+			<li>Production servers administration must be rescticted. No new software can be installed without a formal request. Avoids threat number 3</li>
+			<li>Network security: Firewalls, DMZ. Sensitive server are protected by more firewalls in order to avoid or cascade node compromising. Avoids threat number 3</li>
+			<li>Threat 6 is mitigated by using strong certificates (at least 128 bit encryption)</li>
+		</ul> 
+	</div>
+	<h3><a name="risks_rel">3.2. Reliability issues</a></h3>
+	<div class="padded">	
+			The ability to ensure the integrity and consistency of the application and all its transactions. Reliability flaws in the system can be very hard to detect and correct, sometimes resulting in the need of a complete application redesign.
+			These are some reliability related risks:
+			<ol>
+				<li>Concurrent modifications of the same data</li>
+				<li>Concurrent request creation for the same parts</li>
+				<li>Ensuring PO delivery</li>
+				<li>Ensuring reliability supposing the Inventory Service non XA transactional</li>
+			</ol>
+			<b>Mitigation strategies:</b>
+			<ul>
+				<li>Concurrency is handled by the implicit use of CMT transactions (created by the EJB container on BLL EJBs first method invocation in the stack). 
+				Since heterogeneous resources participate in the business, all of them must be global transaction (XA) capable. 
+				<a href="http://en.wikipedia.org/wiki/Isolation_%28database_systems%29">Database isolation level</a> must be set as <i>repeatable read</i> since  <i>non-repeatable reads</i> are not permitted (to ensure certain use cases reliability), but  <i>phantom reads</i> are not a problem.<br/>
+				On the other hand, for non-idempotent operations (for example any BLL method that changes request status), model state verification is performed inside the transaction in a <i>double-checked locking</i> or <i>optimistic locking</i> fashion, in order to ensure thread safety.
+				</li>
+				<li>Points 2 and 4 are explained in the <a href="#as_is">4.1. Inventory System</a> section.</li>
+				<li>PO delivery is guaranteed by the use of JMS. Since requirements do no state anything about this, messaging has been introduced as optional, to promote supplier interoperability (if the supplier infraestructure is not JMS ready, the PO is sent encrypted by email).</li>
+			</ul> 
+	</div>
+	<h3><a name="risks_scl">3.3. Scalability issues</a></h3>
+	<div class="padded">	
+		The system must be able to accommodate to an arbitrary (growing) load, fulfilling performance and availability QoS specifications. This ability is mandatory, since: 
+		<ol>
+			<li>Provided specifications do not estimate expected loads</li>
+			<li>The system is known to have a growing load in the future (additional markets will be supported)</li>
+		</ol>
+		<b>Mitigation strategies:</b>
+			<ul>
+				<li>Initial production topology has all nodes clustered. Adding new nodes in the future to accommodate to a higher load is straightforward.</li>
+				<li>Application is designed to be distributable. HTTP session is serializable and lightweight.</li>
+				<li>Ensuring reliability is not dependent on the load of the system</li>
+				<li>Pre-production performance test</li>
+				<li>Monitoring: All nodes must be monitored in order to identify bottlenecks and overloaded resources</li>
+			</ul> 
+	</div>
+</div>
+<h2><a name="assumptions">4. Assumptions</a></h2>
+<div class="padded">
+<h3><a name="as_is">4.1. Inventory System</a></h3>
+<div class="padded">
+	Locking is needed to mantain reliability (not several requests for the same parts). 
+	Inventory system web service is supossed to offer this functionality and is called in <a href="diagrams/sequence/uc1.html">request creation</a> and <a href="diagrams/sequence/cd3.html">closing</a> to lock and unlock the parts.
+	If the existing service would not provide this functionality it can be performed remotely (in the wrapper implementation <code>InventorySystem</code>) as long as the webservice API would let identify the parts somehow.
+	
+	The inventory system is not supposed to be XA transactional, despite of being desired. Sequence diagrams using this system have been designed to use the service after all transactional calls have been made. This way in case of an error using this service, a global rollback could be made.
+</div>
+<h3><a name="as_mult">4.2. Relationship multiplicities</a></h3>
+<div class="padded">
+The provided BDM (business domain model) has several uncertainness. The solution adopted has been to keep that BDM (see <a href="./diagrams/class/cls_dal.html">DAL class diagram</a>) as generic and extensible as possible, never adding restrictions to the original, despite of the current SuD not fully exploiting its features.<br/>
+These are the problematic relationships:
+	<ul class="plainList">
+		<li><b>PurchaseOrder-Bid:</b> Provided BDM sets this relationship as 1:1, but this contradicts use case definition, where a PO is created for the winning bid after the auctioning has finished. That is why the multiplicity is set as 0..1-1, in other words, all PO belongs to a single (winning) bid, but not all the bids has a PO associated</li>
+		<li><b>PurchaseOrder-Request:</b> Provided BDM sets this relationship as *:1. Use cases do not reflect how a request can have multiple POs associated (since at most it has a single winning bid and therefore a single PO). The possible interpretation for that is future functionality, for example allowing multiple winning bids (a supplier could bid for a partial quantity of the requested parts, or maybe requests can be made for different parts at once), or creating several POs to the same winning bidder. <br/>In any case that is out of the scope of the current SuD. The original multiplicity has been kept (to promote extensibility) despite of not being currently used.</li>
+		<li><b>Request-Part:</b> Provided BDM is no clear about this relationship. Can a request be made for different parts at the same time? (Use cases suggest no). Again the BDM is modelled to support this feature (composite requests) (see <code>PartInfo</code> association class)</li>
+	</ul>	
+</div>
+<h3><a name="as_open">4.3. Review Open Bids</a></h3>
+<div class="padded">
+	Review Open Bids use case definition states:<br/>
+	<div class="padded">
+		<i>
+		"1. Dreamcar representative searches for open bids and selects one of interest." <br/>
+		"2. System responds with all bid requests relating to the selected bid request. " <br/>
+		</i>
+	</div>
+	<br/>
+	Since request-bids multiplicity is 1:* the previous statements must contain several typographical errors. The use case definition has been interpreted as follows:<br/>
+	<div class="padded">
+		<i>
+		"1. Dreamcar representative searches for open <b>bid requests</b> and selects one of interest." <br/>
+		"2. System responds with all <b>bids</b> relating to the selected bid request. " <br/>
+		</i>
+	</div>
+</div>
+<h3><a name="as_winn">4.4. Winning bidder</a></h3>
+<div class="padded">
+	Issue PO to winning bidder use case definition states:<br/>
+	<div class="padded">
+		<i>
+		"4. Dreamcar representative reviews all bids to ensure that the most valid bid has been chosen." <br/>
+		"5. Dreamcar representative accepts the most suitable bid. "<br/>
+		</i>
+	</div><br/>
+	Is not clear what is the procedure that choose the most valid bid, and what happens if the representative do not accept that chosen bid. <br/>
+	<br/>The solution adopted is giving the user an ordered view of the bids based on the ascending price, (the chosen then will be implicitly the first in the list), and allowing the dreamcar representative to select any of the bids, and mark it as the winner.
+</div>
+</div>
+<h2><a name="notes">5. Design complementary notes</a></h2>
+<div class="padded">
+	<h3><a name="notes_aa">5.1. Application security architecture</a></h3>
+	<div class="padded">
+		SuD must use JEE standard security architecture (see JSR 244, J2EE.3.3) with the following properties:<br/>
+		<b>Defined roles:</b>
+		<ul class="plainList">
+			<li>dreamcar</li>
+			<li>supplier</li>
+		</ul>
+		<b>Authentication procedure:</b> HTTPS Client Authentication <br/>
+		<b>Authorization rules:</b>
+		<ul class="plainList">
+			<li>Request protocol must be HTTPS</li>
+			<li>Any resource (web or ejb) non stereotyped as one of the previous role names, is protected and can only be accessed if logged principal has any of these roles.</li>
+			<li>Resources (or methods) stereotyped as one of the previous role names, can only be accessed by principals with that role </li>
+		</ul>
+		<b>Deployment mapping:</b> Defined roles are mapped at deploy time to LDAP groups of the same name, that must be maintained externally to the SuD.
+	</div>
+	<h3><a name="notes_err">5.2. Error handling and logging</a></h3>
+	<div class="padded">
+		<b>Error handling:</b> <i>Service to worker</i> pattern is mandatory in order to have all model charged before the view rendering begins. If an error occurs the user must be redirected to the last view successfully rendered and show an non technical error message.
+		<br/>
+		<b>Logging:</b> The following logging is mandatory, and will be implemented by <code>LoggingFilter</code> in <a href="./diagrams/class/cls_pl.html">PL</a> and <code>LoggingInterceptor</code> in <a href="./diagrams/class/cls_bll.html">BLL</a>:
+		<ul class="plainList">
+			<li>Inter-tier invocations: remote user ip, user principal, date, resource accessed</li>
+			<li>All throwables</li>
+		</ul>		
+	</div>
+	<h3><a name="notes_prop">5.3. Environment dependent properties</a></h3>
+	<div class="padded">
+		All resources dependent of the environment (usually configuration files) must be deployed externally to the ear.<br/>
+		The first time the application is deployed in an environment, the deployer must create the shared library <b><i>Environment dependent properties</i></b> (see <a href="./diagrams/deployment/dep_art.html">deployed artifacts diagram</a>). This library contains a single properties file for the environment dependent properties.
+		The deployer must edit the file (according to the bean provider instructions), in order to give the properties the right value for that environment.<br/>
+		Future deployments of the application will not require any special action, just install the new ear, and associate the shared library.<br/>
+		
+		The purpose of this procedure is to keep the ear unchanged between environment promotions, making the application more maintainable.
+		
+	</div>
+	<h3><a name="notes_i18n">5.4. Internationalization</a></h3>
+	<div class="padded">
+		All jsp text readable by the client must be externalized to properties files according to <a href="http://download.oracle.com/javase/1.5.0/docs/api/java/util/PropertyResourceBundle.html"><code>PropertyResourceBundle</code></a> specification. That makes the application more extensible to support new languages and easier to maintain.
+	</div>
+	<h3><a name="notes_lf">5.5. Application lifecycle</a></h3>
+	<div class="padded">
+		<b>Environments:</b>
+		<ul class="plainList">
+			<li>Development: Local developer machine. Single application server instance integrated with IDE. No webserver, no load balancing, no caching. External systems LDAP, and RDMBS are targeted to a distributed single development instance, administrable by the developer. Messaging is tested with the JMS provider integrated in the application server.</li>
+			<li>Integration: Same topology as development. Target of continuous integration. External systems LDAP, and RDMBS are targeted to a distributed single integration instance non administrable by the developer (data must be consistent). Automatized builds (sinchronization with SCM repositories), deployments, and unitary testing. Record and notification of results. Also functional testing.</li>
+			<li>Preproduction: Mirror of production environment. Same topology, same data. Performance testing and tunning. Verification of non-functional requirements. Final acceptance</li>
+			<li>Production: End user environment. Same configuration that preproduction.</li>
+		</ul>	
+	</div>
+	<h3><a name="notes_sup">5.6. Enrolling a new supplier</a></h3>
+	<div class="padded">
+		When a new supplier is going to be enrolled the following actions must be manually performed:
+		<ul class="plainList">
+			<li>LDAP user creation</li>
+			<li>Add the new supplier user to the "Suppliers" LDAP group</li>
+			<li>Creation of the digital certificate for the supplier in case of not having one. Storing the certificate in LDAP</li>
+			<li>Adding supplier data to LDAP entry, (email,...) </li>
+			<li>In case of supporting messaging, creating the queue for the supplier and registering needed access information in LDAP</li>
+			<li>Adding a new exception to the DMZ firewall, to enable B2B communication from the supplier specified IP addresses (IP filtering enabled)</li>
+			<li>Sending the certificate and endpoint information to the supplier over a secure channel (physically, by phone, by postal mail,..., in addition to a simple SSL connection to Dreamcar servers (this functionality is out of the SuD))</li>
+		</ul>
+	</div>
+</div>
+<div class="footer">
+  	<div class="right">
+	   <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+8
+
+dir
+41
+https://192.168.1.4/svn/repository_svn/CERT/SCEA/trunk/Assignment
+https://192.168.1.4/svn/repository_svn
+
+
+
+2011-07-28T16:50:02.906250Z
+19
+nacho
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1a0f01fc-f292-6546-a759-495065446b9d
+
+1.htm
+file
+
+
+
+
+2011-08-15T19:24:13.812000Z
+a9b81383f93c0e12198b0361abb3f9d8
+2011-07-28T16:17:37.968750Z
+17
+nacho
+
+1_files
+dir
+
+instrucciones.htm
+file
+
+
+
+
+2011-08-15T19:24:12.234000Z
+20b3b3babe0758829ef0a0e7edc3ffcb
+2011-07-28T16:17:37.968750Z
+17
+nacho
+
+instrucciones_files
+dir
+
+proceso pago.doc
+file
+
+https://192.168.1.4/svn/repository_svn/CERT/SCEA/trunk/Assignment/proceso%20pago.doc
+
+
+2011-08-15T19:24:13.703000Z
+eec298ee0ae792d662cd9589e47e026c
+2011-07-28T16:17:37.968750Z
+17
+nacho
+has-props
+
