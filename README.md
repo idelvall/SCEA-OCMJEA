@@ -7,4 +7,4 @@ I have decided to publish it now, a few years after achieving the SCEA certifica
 * [Sun original assignment documentation](https://rawgit.com/idelvall/SCEA-OCMJEA/master/scea-SR1825921/Assignment/1.htm)
 * [My SCEA submission](https://rawgit.com/idelvall/SCEA-OCMJEA/master/scea-SR1825921/index.html)
 
-[!Certified credential](https://acclaim-production-app.s3.amazonaws.com/images/034669d0-ca2f-4661-a79d-ef9f5a530d73/oracle_master.png)
+![Certified credential](https://acclaim-production-app.s3.amazonaws.com/images/034669d0-ca2f-4661-a79d-ef9f5a530d73/oracle_master.png)
