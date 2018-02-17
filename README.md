@@ -10,4 +10,4 @@ I have decided to publish it now, a few years after achieving the SCEA certifica
 [![Component diagram](https://raw.githubusercontent.com/idelvall/SCEA-OCMJEA/master/scea-SR1825921/images/com_dgm.gif)](https://rawgit.com/idelvall/SCEA-OCMJEA/master/scea-SR1825921/diagrams/component/com_dgm.html)
 
 
-![Certified credential](scea-SR1825921/Oracle-Certification-badge_OC-Master.png)
+[![Certified credential](scea-SR1825921/Oracle-Certification-badge_OC-Master.png)](https://www.youracclaim.com/badges/0e01a6db-4e57-427b-89ca-e233efd6baf9)
